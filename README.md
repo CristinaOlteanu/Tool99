@@ -7,7 +7,7 @@ The tool is able to perform an ARP Spoofing attack between two given IPs. If des
 
 To start the tool, enter the following command in a linux terminal:<br>
 sudo python tool.py \<network> <br>
-\<network> represents the network on which the attack is performed. 
+where \<network> represents the network on which the attack is performed. 
   
 After the tool starts, an nmap is performed to see the available hosts on the network. Then, you have to input the IPs and then you can choose which features you want to enable. (MiTM and/or DNS Spoofing). 
 
